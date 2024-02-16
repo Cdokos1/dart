@@ -1,6 +1,6 @@
 import 'student.dart';
 
-class School extends Student{
+class School {
   String? nameOfSchool;
   String? place;
   List <Student>? students;
