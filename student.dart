@@ -5,7 +5,7 @@ import 'person.dart';
 class Student extends Person {
   int studentId;
   Student(this.studentId,super.name,super.age);
-  @override
+ @override
   void printout() {
     print("id:$studentId");
     super.printout();
