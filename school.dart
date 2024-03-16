@@ -1,7 +1,4 @@
-import 'dart:js_util';
 
-import 'main.dart';
-import 'student.dart';
 
 class School {
   String? nameOfSchool;
