@@ -1,5 +1,5 @@
 import 'dart:ffi';
-
+import 'school.dart';
 import 'person.dart';
 import "dart:io";
 import 'student.dart';
