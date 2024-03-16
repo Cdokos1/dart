@@ -3,25 +3,27 @@ import 'dart:js_util';
 import 'main.dart';
 import 'student.dart';
 
-class School extends Student{
+class School {
   String? nameOfSchool;
   String? place;
+int? studentId;
+String? name;
+int? age;
+School (int this.studentId, this.name, this.age);
 
-  School(super.studentId, super.name, super.age);
-
-
-
-  School Input(School) {
+School studentInfo = School(0,"0",0);
+List<School> students = [School(0, "0", 0)];
+  School Input(studentInfo) {
 
     print("enter a student $studentId");
     print("enter name: $name");
     print("enterage: $age");
-    return School;
+    return studentInfo;
   }
-  void addStudent(School)
+  void addStudent(studentInfo)
   {
 
-    School.add(Student(studentId, name!, age!));
+    students.add(studentInfo(studentId, name!, age!));
 
   }
 
